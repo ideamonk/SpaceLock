@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Web Developer Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface", "WebInterface.csproj", "{F05BE3F4-9A12-4DC4-BC50-A1D2AE5761BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05BE3F4-9A12-4DC4-BC50-A1D2AE5761BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05BE3F4-9A12-4DC4-BC50-A1D2AE5761BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05BE3F4-9A12-4DC4-BC50-A1D2AE5761BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05BE3F4-9A12-4DC4-BC50-A1D2AE5761BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

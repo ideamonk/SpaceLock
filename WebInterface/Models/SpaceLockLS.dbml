@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="spacelockDB" Class="SpaceLockLSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\spacelockDB.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="spacelockDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.intrusions" Member="intrusions">
+    <Type Name="intrusion">
+      <Column Name="int_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="int_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="int_time" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="int_desc" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.presets" Member="presets">
+    <Type Name="preset">
+      <Column Name="pre_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pre_name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cam_x" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cam_y" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cam_z" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.camStatus" Member="camStatus">
+    <Type Name="camStatus">
+      <Column Name="punkouter" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="surveillance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="uptime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="last_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="last_time" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="cam_x" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cam_y" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cam_z" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pre_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.settings" Member="settings">
+    <Type Name="setting">
+      <Column Name="int_tracking" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sms_alerts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lookup_time" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="archive_max" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="punk" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="user">
+      <Column Name="username" Type="System.String" DbType="NChar(5)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="phone_no" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Stream" Member="Streams">
+    <Type Name="Stream">
+      <Column Name="punk" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="frame" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

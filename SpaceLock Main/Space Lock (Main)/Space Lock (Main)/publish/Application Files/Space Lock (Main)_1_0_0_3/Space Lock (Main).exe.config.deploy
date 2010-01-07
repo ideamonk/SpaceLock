@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Space_Lock__Main_.Properties.Settings.space_lock_databaseConnectionString"
+            connectionString="Data Source=|DataDirectory|\space lock database.sdf"
+            providerName="Microsoft.SqlServerCe.Client.3.5" />
+        <add name="Space_Lock__Main_.Properties.Settings.spacelockdatabaseConnectionString"
+            connectionString="Data Source=|DataDirectory|\spacelockdatabase.sdf"
+            providerName="Microsoft.SqlServerCe.Client.3.5" />
+        <add name="Space_Lock__Main_.Properties.Settings.dataConnectionString"
+            connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\data.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>

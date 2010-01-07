@@ -1,0 +1,9 @@
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\bin\Debug\MotionDetect2.exe
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\bin\Debug\MotionDetect2.pdb
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\bin\Debug\ZedGraph.dll
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\MotionDetect2.Properties.Resources.resources
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\MotionDetect2.csproj.GenerateResource.Cache
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\MotionDetect2.exe
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\MotionDetect2.pdb
+C:\Users\ideamonk\Desktop\emgu\MotionDetect2\MotionDetect2\obj\Debug\MotionDetection.Form1.resources

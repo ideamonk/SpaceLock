@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.375, 8.5" name="SpaceLockLS">
+  <DataContextMoniker Name="/SpaceLockLSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c3191846-267a-4d01-a054-f6023fab736f" absoluteBounds="0.75, 0.5, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/intrusion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a8416b5-ecbe-4d35-995e-fff08ce42553" absoluteBounds="0.765, 0.96, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fea0caf7-b086-4c21-8d56-6d8d49c15a81" absoluteBounds="3.75, 0.75, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/preset" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ecf7500f-5415-4690-b2d8-3e3de5b3080b" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f69348c-4c0e-47b0-8c97-6a6c98c3f2d1" absoluteBounds="3.875, 3.75, 2, 2.24658447265625">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/camStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8c0e45f-2e1d-4b98-aa2c-eb8e295956ec" absoluteBounds="3.89, 4.21, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec8c4c1d-731a-4a94-a64a-cb955d0558e4" absoluteBounds="1.375, 3.375, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/setting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="183086c5-3f80-4e8a-b269-6e9c6dadbb42" absoluteBounds="1.3900000000000001, 3.835, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8cbe232c-0726-4f26-8202-e32b09c0a853" absoluteBounds="1.75, 5.625, 2, 1.26050048828125">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f7154cc-69a5-4020-907d-a66d23e7c7a3" absoluteBounds="1.7650000000000001, 6.085, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ffc0c631-5b1a-4e07-a2e6-7cef23265940" absoluteBounds="9.125, 2.25, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/SpaceLockLSDataContext/Stream" />
+      <nestedChildShapes>
+        <elementListCompartment Id="14db9883-1ada-47fb-b6b9-cc1a07764306" absoluteBounds="9.14, 2.71, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

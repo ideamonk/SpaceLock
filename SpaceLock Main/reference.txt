@@ -1,0 +1,31 @@
+
+// if intrusion has occured
+
+IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9050);
+Socket server = new Socket(AddressFamily.InterNetwork,SocketType.Stream, ProtocolType.Tcp);
+try
+{
+	server.Connect(ipep);
+} 
+catch (SocketException e)
+{
+}
+
+server.Send(Encoding.ASCII.GetBytes("INTRUSION"));
+server.Close();
+
+
+// once intrusion has stopped
+
+IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9050);
+Socket server = new Socket(AddressFamily.InterNetwork,SocketType.Stream, ProtocolType.Tcp);
+try
+{
+	server.Connect(ipep);
+} 
+catch (SocketException e)
+{
+}
+
+server.Send(Encoding.ASCII.GetBytes("STOP"));
+server.Close();

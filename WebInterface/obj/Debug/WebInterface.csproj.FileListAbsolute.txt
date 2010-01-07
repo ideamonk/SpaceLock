@@ -1,0 +1,10 @@
+C:\Users\ideamonk\Desktop\WebInterface\bin\WebInterface.dll
+C:\Users\ideamonk\Desktop\WebInterface\bin\WebInterface.pdb
+C:\Users\ideamonk\Desktop\WebInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ideamonk\Desktop\WebInterface\obj\Debug\WebInterface.dll
+C:\Users\ideamonk\Desktop\WebInterface\obj\Debug\WebInterface.pdb
+C:\Users\ideamonk\Documents\My Dropbox\WebInterface\bin\WebInterface.dll
+C:\Users\ideamonk\Documents\My Dropbox\WebInterface\bin\WebInterface.pdb
+C:\Users\ideamonk\Documents\My Dropbox\WebInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ideamonk\Documents\My Dropbox\WebInterface\obj\Debug\WebInterface.dll
+C:\Users\ideamonk\Documents\My Dropbox\WebInterface\obj\Debug\WebInterface.pdb
